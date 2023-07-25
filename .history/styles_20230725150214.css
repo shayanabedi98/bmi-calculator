@@ -107,7 +107,6 @@ input[type='number'] {
 
 .result button {
     background-color: #068FFF;
-    color: #EEEEEE;
     height: 40px;
     width: 115px;
     border-radius: 5px;
@@ -115,7 +114,6 @@ input[type='number'] {
     box-shadow: 0 0 5px 0 #4141a0;
     cursor: pointer;
     font-size: 100%;
-    font-weight: 700;
 }
 
 .result button:active {
