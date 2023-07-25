@@ -119,3 +119,5 @@ input[type='number'] {
 .result button:active {
     background-color: #EEEEEE;
 }
+
+@media (max-width: 500px)

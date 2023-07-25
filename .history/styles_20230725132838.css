@@ -113,9 +113,11 @@ input[type='number'] {
     border: none;
     box-shadow: 0 0 5px 0 #4141a0;
     cursor: pointer;
-    font-size: 100%;
+    font-size: 16px;
 }
 
 .result button:active {
     background-color: #EEEEEE;
 }
+
+@media (max-width: 500px)
