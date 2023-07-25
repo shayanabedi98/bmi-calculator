@@ -1,0 +1,1 @@
+const weight = document.querySelector('#weight')

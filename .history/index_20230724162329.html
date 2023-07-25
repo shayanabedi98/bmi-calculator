@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="bmi-calculator">
+                <h1>BMI Calculator</h1>
+                <div class="weight">
+                    <input type="number" placeholder="Enter Weight">
+                    <input type="radio" name="weight" checked><span>kg</span>
+                    <input type="radio" name="weight"><span>lbs</span>
+                </div>
+                <div class="height">
+                    <input type="number" placeholder="Enter Height">
+                    <input type="radio" name="height" checked><span>m</span>
+                    <input type="radio" name="height"><span>feet</span>
+                </div>
+                <div class="result">
+                    <h3>Insert Values</h3>
+                    <button class="calculate">Calculate</button>
+                </div>
+            </div>
+        </div>
+        <div class="card chart">
+            <div class="bmi-chart">
+                <table bgcolor='black'>
+                    <tr bgcolor="#EEEEEE" align="center">
+                        <th width="100">BMI</th>
+                        <th width="100">Classification</th>
+                    </tr>
+                    <tr bgcolor="e5e5ff">
+                        <th>&lt;16</th>
+                        <th>Severe Thinness</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

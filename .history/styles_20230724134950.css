@@ -1,0 +1,32 @@
+body {
+    background-color: #068FFF;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    background-color: #EEEEEE;
+    padding: 20px;
+    width: 20%;
+    margin-left: 40%;
+    border-radius: 10px;
+    margin-top: 8%;
+}
+
+.weight {
+    display: block;
+}
+
+input[type='number'] {
+    display: block;
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+    height: 20px;
+}
+
+h1 {
+    margin-top: 0;
+}
