@@ -9,23 +9,37 @@
 <body>
     <div class="container">
         <div class="card">
-            <div class="bmi-calculator">
+            <div class="system">
                 <h1>BMI Calculator</h1>
+                <button id="metric">Metric</button>
+                <button id="imperial">Imperial</button>
+            </div>
+            <div class="metric">
                 <div class="weight">
-                    <h2>Weight</h2>
-                    <input id="weight" placeholder="Enter Weight" type="number">
-                    <input type="radio" name="weight" checked><span>kg</span>
-                    <input type="radio" name="weight"><span>lbs</span>
+                    <label class="weight" for="weight">Weight in Kilograms</label>
+                    <input type="number" min="0" placeholder="Enter Weight" id="kg">
                 </div>
                 <div class="height">
-                    <h2>Height</h2>
-                    <input type="number" placeholder="Enter Height" id="height">
-                    <input type="radio" name="height" checked><span>cm</span>
-                    <input type="radio" name="height"><span>feet</span>
+                    <label class="height" for="height">Height in Centimeters</label>
+                    <input type="number" min="0" placeholder="Enter Height" id="cm">
                 </div>
-                <div class="result">
+                <div class="result result-metric">
                     <h3>Press Button to Calculate BMI</h3>
-                    <button class="calculate">Calculate</button>
+                    <button onclick="calcMetric()" class="calculate">Calculate</button>
+                </div>
+            </div>
+            <div class="imperial">
+                <div class="weight">
+                    <label class="weight" for="weight"> Weight in Pounds</label>
+                    <input type="number" min="0" id="lbs" placeholder="Enter Weight">
+                </div>
+                <div class="height">
+                    <label class="height"  for="height">Height in Inches</label>
+                    <input type="number" min="0" placeholder="Enter Height" id="in">
+                </div>
+                <div class="result result-imperial">
+                    <h3>Press Button to Calculate BMI</h3>
+                    <button onclick="calcImperial()" class="calculate">Calculate</button>
                 </div>
             </div>
         </div>
